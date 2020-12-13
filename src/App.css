@@ -1,0 +1,68 @@
+/* .App {
+  background-color: rgb(180, 180, 180);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  align-items: center;
+  width: 410px;
+  height: 250px;
+} */
+
+.window {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #02010f;
+  font-family: 'Lato', cursive;
+  width: 250px;
+  height: 300px;
+}
+
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 45pt;
+}
+
+p {
+  margin-top: -19px;
+  line-height: 0px;
+  font-size: 13.5pt;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #ff6eec;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #d349c0;
+}

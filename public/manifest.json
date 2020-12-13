@@ -1,0 +1,26 @@
+{
+  "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'",
+  "manifest_version": 2,
+
+  "name": "727ify",
+  "description": "Make your webpage page really funny!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "osuicon.png",
+    "default_popup": "index.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "<all_urls>", "activeTab"]
+}
